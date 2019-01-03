@@ -14,7 +14,7 @@ source:
     - regex.patch
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win and vc<14]
 
 requirements:
@@ -29,14 +29,12 @@ requirements:
     - jsoncpp
     - openssl
   run:
-    - curl
-    - openssl
     - pdal
+    - gdal
     - xz
+    - curl
     - jsoncpp
     - openssl
-    - gdal
-
 test:
   commands:
     - entwine --version
