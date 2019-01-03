@@ -1,0 +1,34 @@
+channel_sources:
+- conda-forge,defaults
+channel_targets:
+- conda-forge main
+curl:
+- '7.59'
+cxx_compiler:
+- vs2015
+gdal:
+- '2.3'
+jsoncpp:
+- 1.8.4
+openssl:
+- 1.0.2
+pin_run_as_build:
+  curl:
+    max_pin: x
+  gdal:
+    max_pin: x.x
+  jsoncpp:
+    max_pin: x.x.x
+  openssl:
+    max_pin: x.x.x
+  vc:
+    max_pin: x
+  xz:
+    max_pin: x.x
+vc:
+- '14'
+xz:
+- '5.2'
+zip_keys:
+- - vc
+  - cxx_compiler
