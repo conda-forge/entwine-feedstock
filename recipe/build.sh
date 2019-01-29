@@ -1,7 +1,10 @@
 #!/bin/bash
 
 set -ex
-
+if [ "$(uname)" == "Linux" ]
+then
+   export LDFLAGS="$LDFLAGS -Wl,-rpath-link,${PREFIX}/lib"
+fi
 
 unameOut="$(uname -s)"
 case "${unameOut}" in
