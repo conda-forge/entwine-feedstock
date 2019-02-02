@@ -7,9 +7,9 @@ channel_targets:
 curl:
 - '7.59'
 cxx_compiler:
-- toolchain_cxx
+- clangxx
 gdal:
-- '2.3'
+- '2.4'
 jsoncpp:
 - 1.8.4
 macos_machine:
