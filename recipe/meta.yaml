@@ -10,8 +10,6 @@ package:
 source:
   url: https://github.com/connormanning/entwine/archive/{{version}}.zip
   sha256: {{ sha256 }}
-  patches:
-    - regex.patch
 
 build:
   number: 0
