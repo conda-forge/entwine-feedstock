@@ -39,8 +39,7 @@ test:
 
 about:
   home: https://entwine.io
-  license: LGPLv2
-  license_family: LGPL
+  license: LGPL-2.1-or-later
   license_file: LICENSE.txt
   summary: 'Point cloud spatial indexing library'
 
