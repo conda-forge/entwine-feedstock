@@ -5,13 +5,13 @@ channel_sources:
 channel_targets:
 - conda-forge main
 curl:
-- '7.64'
+- '7'
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '9'
+- '10'
 gdal:
-- '3.0'
+- '3.1'
 jsoncpp:
 - 1.8.4
 macos_machine:
