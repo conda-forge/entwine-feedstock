@@ -3,9 +3,9 @@ About entwine
 
 Home: https://entwine.io
 
-Package license: LGPLv2
+Package license: LGPL-2.1-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Point cloud spatial indexing library
 
