@@ -8,11 +8,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/connormanning/entwine/archive/{{version}}.zip
+  url: https://github.com/connormanning/entwine/archive/{{ version }}.zip
   sha256: {{ sha256 }}
 
 build:
-  number: 4
+  number: 5
   skip: True  # [win and vc<14]
 
 requirements:
