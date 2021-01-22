@@ -5,9 +5,13 @@ Home: https://entwine.io
 
 Package license: LGPL-2.1-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/entwine-feedstock/blob/master/LICENSE.txt)
 
 Summary: Point cloud spatial indexing library
+
+Development: https://github.com/connormanning/entwine
+
+Documentation: https://entwine.io
 
 Entwine is a C/C++ library for organizing point clouds as a
 octree tile structure.
