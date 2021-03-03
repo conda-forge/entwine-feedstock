@@ -2,6 +2,8 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
-jsoncpp:
-- 1.9.4
-migrator_ts: 1611338260.421036
+gdal:
+- '3.2'
+libgdal:
+- '3.2'
+migrator_ts: 1604390922.414637
