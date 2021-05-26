@@ -10,8 +10,6 @@ cxx_compiler:
 - clangxx
 cxx_compiler_version:
 - '11'
-gdal:
-- '3.2'
 jsoncpp:
 - 1.9.4
 macos_machine:
@@ -21,8 +19,6 @@ openssl:
 pin_run_as_build:
   curl:
     max_pin: x
-  gdal:
-    max_pin: x.x
   jsoncpp:
     max_pin: x.x.x
   openssl:

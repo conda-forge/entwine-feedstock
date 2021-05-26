@@ -12,8 +12,6 @@ cxx_compiler_version:
 - '9'
 docker_image:
 - quay.io/condaforge/linux-anvil-comp7
-gdal:
-- '3.2'
 jsoncpp:
 - 1.9.4
 openssl:
@@ -21,8 +19,6 @@ openssl:
 pin_run_as_build:
   curl:
     max_pin: x
-  gdal:
-    max_pin: x.x
   jsoncpp:
     max_pin: x.x.x
   openssl:

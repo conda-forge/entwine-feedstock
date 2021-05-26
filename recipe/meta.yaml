@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 9
+  number: 10
   skip: True  # [win and vc<14]
 
 requirements:
@@ -21,14 +21,12 @@ requirements:
     - cmake
   host:
     - pdal
-    - gdal
     - xz
     - curl
     - jsoncpp
     - openssl
   run:
     - pdal
-    - gdal
     - xz
     - curl
     - jsoncpp
