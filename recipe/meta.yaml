@@ -21,14 +21,12 @@ requirements:
     - cmake
   host:
     - pdal
-    - gdal
     - xz
     - curl
     - jsoncpp
     - openssl
   run:
     - pdal
-    - gdal
     - xz
     - curl
     - jsoncpp
