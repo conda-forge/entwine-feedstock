@@ -160,6 +160,3 @@ Feedstock Maintainers
 * [@connormanning](https://github.com/connormanning/)
 * [@hobu](https://github.com/hobu/)
 
-
-<!-- dummy commit to enable rerendering -->
-
