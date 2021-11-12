@@ -1,5 +1,5 @@
 channel_sources:
-- conda-forge,defaults
+- conda-forge
 channel_targets:
 - conda-forge main
 curl:
@@ -14,8 +14,6 @@ pin_run_as_build:
   curl:
     max_pin: x
   jsoncpp:
-    max_pin: x.x.x
-  openssl:
     max_pin: x.x.x
   xz:
     max_pin: x.x
