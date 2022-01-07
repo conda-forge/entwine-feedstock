@@ -6,15 +6,11 @@ curl:
 - '7'
 cxx_compiler:
 - vs2017
-jsoncpp:
-- 1.9.4
 openssl:
 - '3'
 pin_run_as_build:
   curl:
     max_pin: x
-  jsoncpp:
-    max_pin: x.x.x
   xz:
     max_pin: x.x
 target_platform:

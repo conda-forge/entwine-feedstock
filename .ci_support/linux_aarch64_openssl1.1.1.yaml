@@ -16,15 +16,11 @@ cxx_compiler_version:
 - '9'
 docker_image:
 - quay.io/condaforge/linux-anvil-aarch64
-jsoncpp:
-- 1.9.4
 openssl:
 - 1.1.1
 pin_run_as_build:
   curl:
     max_pin: x
-  jsoncpp:
-    max_pin: x.x.x
   xz:
     max_pin: x.x
 target_platform:
