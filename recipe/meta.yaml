@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 3
+  number: 4
   skip: True  # [win and vc<14]
 
 requirements:
@@ -24,13 +24,11 @@ requirements:
     - pdal
     - xz
     - curl
-    - jsoncpp
     - openssl
   run:
     - pdal
     - xz
     - curl
-    - jsoncpp
     - openssl
 test:
   commands:
