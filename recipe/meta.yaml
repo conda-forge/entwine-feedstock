@@ -1,7 +1,6 @@
-
 {% set name = "entwine" %}
-{% set version = "2.2.0" %}
-{% set sha256 = "d7925588987eb1b6e827decac8563a1212b27b7048efc5ac719f651695c3ec5a" %}
+{% set version = "3.0.0" %}
+{% set sha256 = "1092653a40ffa09637863f39fa7f085f86f1bbfbdd413787f8ed932dc5aebb05" %}
 
 package:
   name: {{ name|lower }}
@@ -12,8 +11,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 6
-  skip: True  # [win and vc<14]
+  number: 0
+  skip: true  # [win and vc<14]
 
 requirements:
   build:
