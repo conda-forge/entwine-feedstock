@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 3
+  number: 4
   skip: true  # [win and vc<14]
 
 requirements:
@@ -20,12 +20,12 @@ requirements:
     - cmake
     - make
   host:
-    - pdal
+    - pdal 2.5
     - xz
     - curl
     - openssl
   run:
-    - pdal
+    - pdal 2.5
     - xz
     - curl
     - openssl
