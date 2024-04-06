@@ -20,12 +20,12 @@ requirements:
     - cmake
     - make
   host:
-    - pdal 2.5
+    - pdal 2.6
     - xz
     - curl
     - openssl
   run:
-    - pdal 2.5
+    - pdal 2.6
     - xz
     - curl
     - openssl
