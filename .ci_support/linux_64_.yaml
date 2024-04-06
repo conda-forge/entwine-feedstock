@@ -20,8 +20,6 @@ openssl:
 - '3'
 target_platform:
 - linux-64
-xz:
-- '5'
 zip_keys:
 - - c_stdlib_version
   - cdt_name

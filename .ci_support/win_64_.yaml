@@ -14,5 +14,3 @@ target_platform:
 - win-64
 vc:
 - '14'
-xz:
-- '5'
