@@ -19,14 +19,13 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
     - make
+    - ninja
   host:
     - pdal 2.6
-    - xz
     - curl
     - openssl
   run:
     - pdal 2.6
-    - xz
     - curl
     - openssl
 test:
