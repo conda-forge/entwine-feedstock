@@ -7,7 +7,8 @@ then
 fi
 
 
-cmake -G "Unix Makefiles" \
+cmake -G "Ninja" \
+      ${CMAKE_ARGS} \
       -DCMAKE_INSTALL_PREFIX:PATH="${PREFIX}" \
       -DCMAKE_BUILD_TYPE:STRING=Release \
       -DCMAKE_LIBRARY_PATH="${PREFIX}/lib" \
@@ -15,5 +16,5 @@ cmake -G "Unix Makefiles" \
       -DWITH_TESTS=OFF
 
 # CircleCI offers two cores.
-make -j $CPU_COUNT
-make install
+ninja
+ninja install
