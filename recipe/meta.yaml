@@ -11,21 +11,22 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win and vc<14]
 
 requirements:
   build:
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - cmake
     - make
     - ninja
   host:
-    - pdal 2.6
+    - pdal
     - curl
     - openssl
   run:
-    - pdal 2.6
+    - pdal
     - curl
     - openssl
 test:
