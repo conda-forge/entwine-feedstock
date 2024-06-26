@@ -10,6 +10,8 @@ cxx_compiler:
 - vs2019
 openssl:
 - '3'
+pdal:
+- '2.7'
 target_platform:
 - win-64
 vc:
