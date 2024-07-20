@@ -16,11 +16,11 @@ cxx_compiler:
 - clangxx
 cxx_compiler_version:
 - '16'
+libpdal_core:
+- '2.7'
 macos_machine:
 - arm64-apple-darwin20.0.0
 openssl:
 - '3'
-pdal:
-- '2.7'
 target_platform:
 - osx-arm64

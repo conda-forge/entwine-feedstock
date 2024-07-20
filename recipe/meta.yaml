@@ -11,8 +11,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
-  skip: true  # [win and vc<14]
+  number: 3
+  skip: True  # [ppc64le]
 
 requirements:
   build:
@@ -22,11 +22,11 @@ requirements:
     - make
     - ninja
   host:
-    - pdal
+    - libpdal-core
     - curl
     - openssl
   run:
-    - pdal
+    - libpdal-core
     - curl
     - openssl
 test:
