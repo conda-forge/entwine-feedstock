@@ -8,10 +8,10 @@ curl:
 - '8'
 cxx_compiler:
 - vs2019
+libpdal_core:
+- '2.7'
 openssl:
 - '3'
-pdal:
-- '2.7'
 target_platform:
 - win-64
 vc:
