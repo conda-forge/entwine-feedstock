@@ -16,6 +16,7 @@ cmake -G "Ninja" \
       -DCMAKE_LIBRARY_PATH="${PREFIX}/lib" \
       -DCMAKE_INCLUDE_PATH="${PREFIX}/include" \
       -DWITH_TESTS=OFF \
+      -DWITH_ZSTD=OFF \
       ..
 
 # CircleCI offers two cores.
