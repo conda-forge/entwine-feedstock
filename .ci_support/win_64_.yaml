@@ -7,9 +7,9 @@ channel_targets:
 curl:
 - '8'
 cxx_compiler:
-- vs2019
+- vs2022
 libpdal_core:
-- 2.8.4
+- '2.9'
 openssl:
 - '3'
 target_platform:
