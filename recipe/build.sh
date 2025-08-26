@@ -7,13 +7,16 @@ then
 fi
 
 
+mkdir build
+cd build
 cmake -G "Ninja" \
       ${CMAKE_ARGS} \
       -DCMAKE_INSTALL_PREFIX:PATH="${PREFIX}" \
       -DCMAKE_BUILD_TYPE:STRING=Release \
       -DCMAKE_LIBRARY_PATH="${PREFIX}/lib" \
       -DCMAKE_INCLUDE_PATH="${PREFIX}/include" \
-      -DWITH_TESTS=OFF
+      -DWITH_TESTS=OFF \
+      ..
 
 # CircleCI offers two cores.
 ninja
