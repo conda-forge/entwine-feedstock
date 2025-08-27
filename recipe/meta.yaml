@@ -1,6 +1,6 @@
 {% set name = "entwine" %}
 {% set version = "3.2.0" %}
-{% set sha256 = "ac7869d43df8acfae28652c989791ad6ad0c2c437b3bd591a1142db44c26bd01" %}
+{% set sha256 = "56abd05efd604d860e43519c03de5c02cd0e99b7cade0401bf0f80f7ba3b67bd" %}
 
 package:
   name: {{ name|lower }}
