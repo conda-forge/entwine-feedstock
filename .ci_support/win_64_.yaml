@@ -9,7 +9,7 @@ curl:
 cxx_compiler:
 - vs2022
 libpdal_core:
-- '2.9'
+- 2.9.1
 openssl:
 - '3'
 target_platform:
