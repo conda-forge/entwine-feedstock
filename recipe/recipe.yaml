@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: entwine
-  version: "3.2.0"
-  sha256: 56abd05efd604d860e43519c03de5c02cd0e99b7cade0401bf0f80f7ba3b67bd
+  version: "3.2.1"
+  sha256: 99e73bb67ec12b89f5a1bdac142b97c25687651a5c2c46dcae5b741d05780169
 
 package:
   name: ${{ name|lower }}
@@ -14,7 +14,7 @@ source:
   sha256: ${{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   skip: ppc64le
 
 requirements:
