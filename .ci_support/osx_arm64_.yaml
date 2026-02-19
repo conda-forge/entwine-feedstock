@@ -17,10 +17,10 @@ cxx_compiler:
 cxx_compiler_version:
 - '19'
 libpdal_core:
-- 2.9.2
+- '2.10'
 macos_machine:
 - arm64-apple-darwin20.0.0
 openssl:
-- '3'
+- '3.5'
 target_platform:
 - osx-arm64
